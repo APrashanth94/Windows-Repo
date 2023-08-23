@@ -6,7 +6,7 @@ variable "csv_folder" {
 
 variable "csv_files" {
   description = "List of CSV files in the folder"
-  default     = ["windows1.csv", "windows2.csv"] //[ "Linux-VM1.csv", "Linux-VM2.csv"] 
+  default     = ["windows1.csv"] //["windows2.csv", "Linux-VM1.csv", "Linux-VM2.csv"] 
   }
 
 locals {
